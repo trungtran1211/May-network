@@ -1,0 +1,767 @@
+img {
+    max-width: 100%;
+}
+.sv__banner {
+    position: relative;
+    margin-bottom: 47px;
+}
+.banner-bg img {
+    width: 100%;
+    object-fit: cover;
+}
+.sv__banner-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #0C4A6E;
+    text-shadow: 4px 0 #fff, -4px 0 #fff, 0 4px #fff, 0 -4px #fff, 
+                3px 3px #fff, -3px -3px #fff, 3px -3px #fff, -3px 3px #fff
+}
+.sv__banner-heading span {
+    color: #0ea5e9;
+}
+.banner__may {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+}
+.sv__content-heading {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 133.84%;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #0EA5E9;
+    position: relative;
+    margin-bottom: 48px;
+}
+.sv__content-heading span {
+    color: #0c4a6e;
+    position: relative;
+}
+.sv__content-heading span::after{
+    content: url("../images/service/maybay1.png");
+    position: absolute;
+    top: -10px;
+    left: 107%;
+    display: inline-block;
+}
+.sv__content-heading::before{
+    content: url("../images/service/maybay2.png");
+    position: absolute;
+    top: -10px;
+    right: 67%;
+    display: inline-block;
+}
+
+.sv__content-heading::after {
+    content:  "";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 2px;
+    background: #0EA5E9;
+    border-radius: 34px;
+
+}
+#sv__content-nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+#sv__content-nav ul li {
+    outline: 1px solid #11c1eb;
+    border: 4px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+#sv__content-nav ul li:hover {
+    border: 4px solid #11c1eb;
+}
+ 
+#sv__content-nav ul li h3 a {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #11c1eb;
+    display: block;
+    width: 173px;
+    padding: 4px 0;
+}
+#sv__content-nav ul li:hover h3 a  {
+    transform: scale(1.07);
+    transition: .3s linear;
+}
+#sv__content-nav li.active{
+    background: #11c1eb;
+}
+#sv__content-nav li.active h3 a {
+    color: var(--color-white);
+}
+#sv__content-nav {
+    margin-bottom: 45px;
+}
+
+
+/* =============Box Build=============== */
+.box1-container{
+    display: flex;
+    gap: 114px;
+    margin-bottom: 97px;
+    position: relative;
+}
+.box1-container::before {
+    content: url("../images/service/build/build-may.png");
+    position: absolute;
+    bottom: -90px;
+    left: -30px;
+}
+.box1-container::after {
+    content: url("../images/service/build/build-maybay.png");
+    position: absolute;
+    bottom: -15px;
+    right: 220px;
+}
+.sv__build-box1 .box1__left {
+    max-width: 585px;
+}
+.box-heading {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.005em;
+    color: #0EA5E9;
+    margin: 30px 0 18px;
+}
+.sv__build-box1 .box1__left ul {
+    margin-bottom: 45px;
+}
+.sv__build-box1 .box1__left ul li{
+    font-family: var(--font-medium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+
+    color: #1E293B;
+    margin-bottom: 11px;
+}
+.sv__build-box1 .box1__left ul li img {
+    margin-right: 13px;
+}
+.sv__build-box1 .box1__left-title {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #0EA5E9;
+    margin-bottom: 18px;
+}
+.box-text {
+    font-family: var(--font-medium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+.sv__build-box2 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    padding: 34px 0 36px;
+    margin-bottom: 48px;
+    position: relative;
+    z-index: 1;
+}
+.sv__build-box2::before {
+    content: url("../images/service/build/build-may3.png");
+    position: absolute;
+    bottom: -85px;
+    left: 100px;
+    z-index: -1;
+}
+.sv__build-box2::after {
+    content: url("../images/service/build/build-may2.png");
+    position: absolute;
+    top: -67px;
+    right: 50px;
+    z-index: -1;
+}
+.sv__build-box2 .box2-container {
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 31px 96px;
+    background: linear-gradient(167.96deg, rgba(86, 225, 255, 0.8) 0%, rgba(80, 202, 255, 0) 100%);
+    border: 3px solid #63d0ff8e;
+    backdrop-filter: blur(5.5px);
+
+    border-radius: 40px;
+}
+.box-title {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #0284C7;
+    margin-bottom: 28px;
+    text-shadow: 4px 0 #fff, -4px 0 #fff, 0 4px #fff, 0 -4px #fff, 
+                3px 3px #fff, -3px -3px #fff, 3px -3px #fff, -3px 3px #fff
+}
+.box-price {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+}
+.box-price span {
+    font-size: 24px;
+    line-height: 27.92px;
+}
+.box-price1 {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.box-price2 {
+    margin-bottom: 24px;
+}
+.box-price2 img {
+    margin-right: 24px;
+}
+.box-note {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 116.34%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.sv__build-box3 {
+    margin-bottom: 58px;
+}
+.sv__box3-container {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:column;
+}
+.sv__box-list {
+    display: flex;
+    gap: 0 170px;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.sv__box-item {
+    width: 33.333%;
+}
+.sv__box-content {
+    margin-top: -30px;
+}
+.title-box {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #0EA5E9;
+    margin-bottom: 12px;
+    display: block;
+}
+.box-list{
+    list-style: initial;
+}
+.box-list li {
+    font-family: var(--font-medium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+
+    color: #1E293B;
+}
+.box-list li span {
+    font-family: var(--font-black);
+    font-weight: 900;
+}
+.sv__btn {
+    display: flex;
+    align-items: center;
+    padding: 17px 18px;
+    background: linear-gradient(180deg, #0CA2F7 11.27%, #48C7FF 104.75%);
+    border-radius: 30px;
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sv__btn:hover {
+    background: linear-gradient(91.91deg, #2999CB 2.93%, #1294B0 99.69%);
+    border-radius: 30px;
+}
+.sv__btn img {
+    margin-left: 8px;
+}
+
+/* ================maintain================ */
+.sv__maintain1 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    background-size: 100% 367px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 45px;
+}
+.maintain__top {
+    display: flex;
+    gap: 44px;
+}
+.maintain__top-left {
+    width: 500px;
+    position: relative;
+}
+.maintain__top-left::before {
+    content: url("../images/service/maintain/maybay.png");
+    position: absolute;
+    bottom: 97px;
+    left: 135px;
+
+}
+.maintain__top-left::after {
+    content: url("../images/service/maintain/maintain-may1.png");
+    position: absolute;
+    bottom: -40px;
+    left: -110px;
+}
+.maintain__top-right {
+    width: 655px;
+    position: relative;
+}
+.maintain__top-right::before {
+    content: url("../images/service/maintain/maintain-may2.png");
+    position: absolute;
+    bottom: 177px;
+    right: -120px;
+}
+.maintain__top-right .right-box1 {
+    margin-left: 56px;
+    margin-bottom: 82px;
+}
+.maintain-title {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+
+    color: #0EA5E9;
+    margin: 20px 0 25px;
+}
+.maintain__top-right .right-box2 {
+    padding: 31px 90px 26px;
+    background: linear-gradient(167.96deg, rgba(55, 219, 255, 0.8) 0%, rgba(80, 202, 255, 0.21) 100%);
+    backdrop-filter: blur(5.5px);
+    border-radius: 40px;
+    border: 3px solid #63d0ff8e;
+    text-align: center;
+}
+.maintain-list {
+    margin-top: 65px;
+    margin-bottom: 58px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+/* ===========advise============ */
+.sv__advise1 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    background-size: 100% 367px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 45px;
+}
+.advise-container {
+    display: flex;
+    gap: 44px;
+}
+.advise__left {
+    width: 500px;
+    position: relative;
+}
+.advise__left::before {
+    content: url("../images/service/advise/advise-may2.png");
+    position: absolute;
+    left: -110px;
+    bottom: -85px;
+}
+.advise__left::after {
+    content: url("../images/service/advise/advise-maybay.png");
+    position: absolute;
+    left: 140px;
+    bottom: 52px;
+}
+.advise__right {
+    width: 655px;
+    position: relative;
+}
+.advise__right::before {
+    content: url("../images/service/advise/advise-may1.png");
+    position: absolute;
+    right: -115px;
+    bottom: 177px;
+}
+.advise__right-box1 {
+    margin-left: 56px;
+    margin-bottom: 78px;
+}
+.advise__right-box2 {
+    text-align: center;
+    padding: 31px 75px 55px;
+    background: linear-gradient(167.96deg, rgba(55, 219, 255, 0.8) 0%, rgba(80, 202, 255, 0.21) 100%);
+    backdrop-filter: blur(5.5px);
+    border-radius: 40px;
+    border: 3px solid #63d0ff8e;
+}
+
+.advise-list {
+    margin: 58px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+/* ===============manage===================== */
+.sv__manage1 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    background-size: 100% 280px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 30px;
+}
+.manage-container {
+    display: flex;
+    gap: 48px;
+}
+.manage__left {
+    width: 655px;
+    position: relative;
+}
+.manage__left::before {
+    content: url("../images/service/manage/manage-may1.png");
+    position: absolute;
+    bottom: 108px;
+    left: -115px;
+}
+.manage__right {
+    position: relative;
+}
+.manage__right::before {
+    content: url("../images/service/manage/manage-may2.png");
+    position: absolute;
+    bottom: -120px;
+    right: -119px;
+}
+.manage__right::after {
+    content: url("../images/service/manage/manage-maybay.png");
+    position: absolute;
+    bottom: 30px;
+    right: 115px;
+}
+.manage__left-box1 {
+    max-width: 599px;
+    margin-bottom: 100px;
+}
+.manage__left-box1 ul {
+    list-style: initial;
+    margin-left: 50px;
+}
+.manage__left-box1 ul li {
+    font-family: var(--font-medium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1E1E1E;
+}
+.manage__left-box2 {
+    background: linear-gradient(167.96deg, rgba(55, 219, 255, 0.8) 0%, rgba(80, 202, 255, 0.21) 100%);
+    backdrop-filter: blur(5.5px);
+    border-radius: 40px;
+    border: 3px solid #63d0ff8e;
+    padding: 46px 133px 25px;
+}
+.sv__manage2 {
+    margin-top: 60px;
+}
+.manage-list {
+    display: flex;
+    gap: 112px;
+    margin-bottom: 48px;
+}
+.manage-item:first-child {
+    width: 416px;
+}
+.manage-item:last-child {
+    width: 675px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.manage-item .title-box {
+    margin-left: 50px;
+}
+.manage-listitem {
+    display: flex;
+    gap: 65px;
+}
+.manage-listitem .box-list {
+    width: 50%;
+    
+}
+.sv__manage2-container {
+    margin-bottom: 58px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+/* =============Booking=================== */
+.sv__booking1 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    background-size: 100% 290px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.sv_text-mb {
+    margin-bottom: 24px;
+}
+.booking1-container {
+    display: flex;
+    gap: 48px;
+}
+.booking__left {
+    max-width: 655px;
+    position: relative;
+}
+.booking__left-box1 {
+    margin-bottom: 92px;
+}
+.booking__left-box2 {
+    background: linear-gradient(167.96deg, rgba(55, 219, 255, 0.8) 0%, rgba(80, 202, 255, 0.21) 100%);
+    backdrop-filter: blur(5.5px);
+    border-radius: 40px;
+    border: 3px solid #63d0ff8e;
+    padding: 46px 0 35px;
+    position: relative;
+    z-index: 1;
+}
+.booking__left::after {
+    content: url("../images/service/booking/service-may1.png");
+    position: absolute;
+    bottom: 115px;
+    left: -115px;
+}
+.booking__right {
+    position: relative;
+}
+.booking__right::after {
+    content: url("../images/service/booking/service-may2.png");
+    position: absolute;
+    bottom: -130px;
+    right: -120px;
+}
+.sv__booking2 {
+    margin-bottom: 58px;
+}
+.sv__booking-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 216px;
+    margin-bottom: 38px;
+}
+.booking-item {
+    width: 50%;
+}
+.booking-title {
+    text-align: left;
+    margin-left: 64px;
+    margin-bottom: 29px;
+}
+.booking-list {
+    margin-left: 130px;
+}
+.booking2-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+/*================= train ================ */
+.sv__train1 {
+    margin-bottom: 48px;
+}
+.sv__train1-container {
+    display: flex;
+    gap: 102px;
+}
+.train1-left {
+    max-width: 599px;
+}
+.train-listtext {
+    margin-left: 30px;
+    list-style: initial;
+}
+.train-listtext li {
+    font-family: var(--font-medium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: 0.005em;
+
+    color: #1E1E1E;
+
+}
+.sv__train2 {
+    background: linear-gradient(91.91deg, #63D0FF 4.44%, #46BCF1 99.69%);
+    padding: 34px 0 31px;
+    margin-bottom: 58px;
+}
+.train2-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.train2-boxs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 8px;
+}
+.train2-box {
+    width: 50%;
+    padding: 31px 80px 48px;
+    background: linear-gradient(167.96deg, rgba(86, 225, 255, 0.8) 0%, rgba(80, 202, 255, 0) 100%);
+    backdrop-filter: blur(5.5px);
+    border-radius: 40px;
+    border: 3px solid #63d0ff8e;
+    text-align: center;
+}
+.train2-box h2 {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 133.84%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #0284C7;
+    margin-bottom: 28px;
+    text-shadow: 4px 0 #fff, -4px 0 #fff, 0 4px #fff, 0 -4px #fff, 
+                3px 3px #fff, -3px -3px #fff, 3px -3px #fff, -3px 3px #fff
+}
+.train2-box ul {
+    margin-bottom: 6px;
+}
+.train2-box ul li {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 116.34%;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.train2-box p {
+    font-family: var(--font-black);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 116.34%;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+.train-btn {
+    padding: 17px 18px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 8px;
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #0EA5E9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.train-btn:hover {
+    background: linear-gradient(89.99deg, #F5F9FF 0.01%, #E8F7FF 98.01%, #96C2FF 98.01%, #76AFFF 98.01%, #E7F5FF 98.01%, #E8F5FF 98.01%, #F4FBFF 98.01%);
+    border-radius: 30px;
+}
