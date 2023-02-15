@@ -2,9 +2,12 @@ $(document).ready(function(){
   $('.creators-list').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       arrows: false,
       dots: true,
+      cssEase: 'ease',
+      pauseOnHover:false,
+      speed: 2000, 
       responsive: [
         {
           breakpoint: 769,
@@ -39,8 +42,6 @@ $(document).ready(function() {
       $progressBar
         .css('background-size', calc + '% 100%')
         .attr('aria-valuenow', calc );
-      
-    //   $progressBarLabel.text( calc + '% completed' );
     });
 
     $('.list__single').slick({
@@ -48,15 +49,22 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        autoplay: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        cssEase: 'ease',
+        pauseOnHover:false,
+        speed: 1000, 
     });
     $('.list__nav').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.list__single',
         focusOnSelect: true,
-        autoplay: false,
-        autoplaySpeed: 1000,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        cssEase: 'ease',
+        pauseOnHover:false,
+        speed: 1000, 
         arrows: true,
         prevArrow:`<button type='button' class='slick-prev pull-left'><img src="./wp-content/themes/my_network/assets/images/home/partner-left.png" alt=""></button>`,
         nextArrow:`<button type='button' class='slick-next pull-right'><img src="./wp-content/themes/my_network/assets/images/home/partner-right.png" alt=""></button>`

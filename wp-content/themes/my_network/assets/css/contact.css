@@ -598,6 +598,18 @@
         display: block;
         border-radius: 10px;
     }
+    .wpcf7-not-valid-tip {
+        font-family: var(--font-medium);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 12px;
+        letter-spacing: 0.005em;
+        color: #ff0000;
+        display: block;
+        border-radius: 10px;
+        transform: translate(17px, -8px);
+    }
     .holder {
         position: absolute;
         margin: 13px;

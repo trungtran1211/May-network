@@ -20,7 +20,9 @@ get_header(); ?>
                     </div>
                     <div class="banner-right" data-aos="fade-up" data-aos-duration="1000">
                         <div class="banner-img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/about-banner.png" alt="">
+                            <?php if(get_theme_mod("about_image")) :?>
+                                <img src="<?php echo esc_url(get_theme_mod('about_image'))?>" alt="banner" >
+                            <?php endif;?>
                         </div>
                     </div>
                     

@@ -696,6 +696,17 @@ details summary {
         margin-top: 15px;
         border-radius: 10px;
     }
+    .wpcf7-not-valid-tip {
+        font-family: var(--font-medium);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 17px;
+        letter-spacing: 0.005em;
+        color: #ff0000;
+        display: block;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 370px){
