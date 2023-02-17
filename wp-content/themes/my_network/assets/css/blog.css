@@ -566,7 +566,7 @@
     -webkit-text-fill-color: transparent;           
     background-clip: text;
     text-fill-color: transparent;
-    padding-bottom: 13px;
+    padding-bottom: 0px;
     margin-bottom: 49px;
     border-bottom: 2px solid #BAE6FD;
     position: relative;
@@ -669,27 +669,27 @@
 }
 .slick-prev {
     position: absolute;
-    top: 15px;
+    top: 9px;
     right: 50px;
     background: #E5E7EB;
     border-radius: 18.5882px;
     border: none;
     outline: none;
     color: #38BDF8;
-    padding: 10px 15px;
+    padding: 8px 15px;
     cursor: pointer;
     transition: all .3s linear;
 }
 .slick-next {
     position: absolute;
-    top: 15px;
+    top: 9px;
     right: 0;
     background: #E5E7EB;
     border-radius: 18.5882px;
     border: none;
     outline: none;
     color: #38BDF8;
-    padding: 10px 15px;
+    padding: 8px 15px;
     cursor: pointer;
     transition: all .3s linear;
 }

@@ -17,7 +17,7 @@
     right: 0;
 }
 .banner-container {
-    height: 735px;
+    height: 715px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -761,6 +761,9 @@
         color: #1E293B;
         margin-bottom: 14px;
     }
+    .creators {
+        margin: 18px 0 52px;
+    }
 }
 @media screen and (min-width: 1025px) {
     .creators-avt img {
@@ -1102,7 +1105,7 @@
 /*======================== trending========================= */
 .trend {
     margin-top: -320px;
-    margin-bottom: 30px;
+    margin-bottom: 39px;
 }
 .trend__container .trend__heading{
     text-align: center;
