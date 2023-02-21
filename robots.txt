@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: */?
+Disallow:*/page/*
+Disallow: */attachment/*
+
+Allow: /wp-admin/admin-ajax.php
+Allow: *.js
+Allow: *.css
+Sitemap: https://maynetwork.tv/sitemap_index.xml

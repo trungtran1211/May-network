@@ -25,7 +25,7 @@ get_header();
                     </div>
                     <div class="banner-right" data-aos="fade-left" data-aos-duration="1000">
                         <?php if(get_theme_mod("header_image")) :?>
-                            <img src="<?php echo esc_url(get_theme_mod('header_image'))?>" alt="banner" >
+                            <img src="<?php echo esc_url(get_theme_mod('header_image'))?>" alt="Master Tiktok" >
                         <?php endif;?>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ get_header();
                         <div class="box1sv__row1">
                             <div class="box1sv__col" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="box1sv__img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/1.png" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/1.png" alt="Xây dựng kênh">
                                 </div>
                                 <ul>
                                     <?php wp_nav_menu(array('theme_location'=>'menu-Xay-dung-kenh','container'=>'', 'items_wrap' => '%3$s')); ?>
@@ -51,7 +51,7 @@ get_header();
                             </div>
                             <div class="box1sv__col"  data-aos="fade-left" data-aos-duration="1000">
                                 <div class="box1sv__img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/2.png" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/2.png" alt="Quản lý kênh">
                                 </div>
                                 <ul>
                                     <li><a href="#">Quản lý kênh</a></li>
@@ -61,7 +61,7 @@ get_header();
                         <div class="box1sv__row2">
                             <div class="box1sv__col" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="box1sv__img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/3.png" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/3.png" alt="Thiết lập & vận hành Tiktok shop">
                                 </div>
                                 <ul>
                                     <li><a href="#">THIẾT LẬP & VẬN HÀNH <br> TIKTOK SHOP</a></li>
@@ -69,7 +69,7 @@ get_header();
                             </div>
                             <div class="box1sv__col" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="box1sv__img" >
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/4.png" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/4.png" alt="Livestream">
                                 </div>
                                 <ul>
                                     <?php wp_nav_menu(array('theme_location'=>'livestream','container'=>'', 'items_wrap' => '%3$s')); ?>
@@ -79,7 +79,7 @@ get_header();
                         
                             <div class="box1sv__col" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="box1sv__img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/5.png" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service-box1/5.png" alt="Booking idol">
                                 </div>
                                 <ul>
                                     <li><a href="#">BOOKING IDOL</a></li>
