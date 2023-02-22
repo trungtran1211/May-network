@@ -26,13 +26,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'may-network' );
+define( 'DB_NAME', 'maynetwork' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'Abcde$12345' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -87,7 +87,8 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 define( 'WPCF7_AUTOP', false );
-
+define( 'FS_METHOD', 'direct' );
+$_SERVER['HTTPS'] = 'on';
 /* Add any custom values between this line and the "stop editing" line. */
 
 
