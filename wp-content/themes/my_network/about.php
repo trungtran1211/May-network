@@ -198,7 +198,7 @@ get_header(); ?>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/AVT.png" alt="">
                     </div>
                     <h1>Nếu bạn có cùng tầm nhìn, <br class="pc"> Đừng chần chừ!</h1>
-                    <a href="#">
+                    <a href="http://maynetwork.tv/lien-he/">
                         <button class="about__box6-btn">Đăng ký tại đây <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/arrow-btn.png" alt=""></button>
                     </a>
                 </div>

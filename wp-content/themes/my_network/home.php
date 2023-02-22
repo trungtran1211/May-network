@@ -17,7 +17,7 @@ get_header();
                     <div class="banner-left" data-aos="fade-right" data-aos-duration="1000">
                         <h1 class="title">MÂY NETWORK</h1>
                         <p class="content">Không chỉ là một MCN TikTok, Mây giúp cá nhân và doanh nghiệp tiếp cận và khai thác tối đa tiềm năng của TikTok nói chung và TikTok Shop nói riêng.</p>
-                        <a href="#">
+                        <a href="http://maynetwork.tv/ve-may/">
                             <button class="banner-btn">
                                 Tìm hiểu thêm về Mây <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/arrow-banner.png" alt="">
                             </button>
@@ -117,7 +117,7 @@ get_header();
                         Tình cờ, Mây có đào tạo các tài năng trẻ để trở thành các talent in-house, nơi bạn có thể sống đúng với sở thích của mình.
                     </p>
                     <h2 class="contact-title">HÃY ĐỂ NĂNG KHIẾU VÀ ĐAM MÊ CỦA BẠN ĐƯỢC KHÁM PHÁ VÀ NUÔI DƯỠNG!</h2>
-                    <a href="#">
+                    <a href="http://maynetwork.tv/lien-he/">
                         <button class="contact-btn">Liên hệ ngay <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/arrow-banner.png" alt=""></button>
                     </a>
                     <div class="contact__container-tt2" data-aos="fade-left" data-aos-duration="1000">
@@ -291,7 +291,7 @@ get_header();
                     </div>
                     
                     <div class="trend-button">
-                        <a href="http://localhost/wordpress/blog/">
+                        <a href="http://maynetwork.tv/blog/">
                             <button class="trend-btn">
                                 Xem Thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/trend/icon-more.png" alt="">
                             </button>
@@ -313,7 +313,7 @@ get_header();
                     <div class="service-heading">
                         <h2>Dịch vụ trên <span>Mây</span> </h2>
                     </div>
-                    <a href="#">
+                    <a href="http://maynetwork.tv/lien-he/">
                         <button class="service-btn">Liên hệ tại đây <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home/service/arrow-service.png" alt=""></button>
                     </a>
                 </div>

@@ -272,92 +272,6 @@
 						}
 					}
 				?>	
-				<!-- <div class="blog__listnews-item">
-					<div class="listnews-img">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/list-newimg2.png" alt="">
-					</div>
-					<h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên
-						mạng xã hội</h5>
-					<p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải
-						xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo
-						ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
-					<div class="listnew-bottom">
-						<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-clock.png" alt="">18/12/2022</span>
-						<a href="#">
-							<button class="listnew-btn">Xem thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow.png"
-									alt=""></button>
-						</a>
-					</div>
-				</div>
-				<div class="blog__listnews-item">
-					<div class="listnews-img">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/list-newimg3.png" alt="">
-					</div>
-					<h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên
-						mạng xã hội</h5>
-					<p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải
-						xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo
-						ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
-					<div class="listnew-bottom">
-						<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-clock.png" alt="">18/12/2022</span>
-						<a href="#">
-							<button class="listnew-btn">Xem thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow.png"
-									alt=""></button>
-						</a>
-					</div>
-				</div>
-				<div class="blog__listnews-item">
-					<div class="listnews-img">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/list-newimg3.png" alt="">
-					</div>
-					<h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên
-						mạng xã hội</h5>
-					<p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải
-						xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo
-						ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
-					<div class="listnew-bottom">
-						<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-clock.png" alt="">18/12/2022</span>
-						<a href="#">
-							<button class="listnew-btn">Xem thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow.png"
-									alt=""></button>
-						</a>
-					</div>
-				</div>
-				<div class="blog__listnews-item">
-					<div class="listnews-img">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/list-newimg3.png" alt="">
-					</div>
-					<h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên
-						mạng xã hội</h5>
-					<p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải
-						xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo
-						ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
-					<div class="listnew-bottom">
-						<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-clock.png" alt="">18/12/2022</span>
-						<a href="#">
-							<button class="listnew-btn">Xem thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow.png"
-									alt=""></button>
-						</a>
-					</div>
-				</div>
-				<div class="blog__listnews-item">
-					<div class="listnews-img">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/list-newimg3.png" alt="">
-					</div>
-					<h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên
-						mạng xã hội</h5>
-					<p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải
-						xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo
-						ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
-					<div class="listnew-bottom">
-						<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-clock.png" alt="">18/12/2022</span>
-						<a href="#">
-							<button class="listnew-btn">Xem thêm <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow.png"
-									alt=""></button>
-						</a>
-					</div>
-				</div> -->
-
 			</div>
 		</div>
 	</div>
@@ -373,7 +287,7 @@
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/AVT .png" alt="">
 			</div>
 			<h2 class="blog__bottom-title">Sáng tạo cùng <span>Mây</span></h2>
-			<a href="#">
+			<a href="http://maynetwork.tv/lien-he/">
 				<button class="blog__bottom-btn">Liên hệ tại đây <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blogs/icon-arrow2.png"
 						alt=""></button>
 			</a>
