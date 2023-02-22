@@ -359,7 +359,7 @@ main {
     color: #000000;
   }
   #wrap ul li a i {
-    margin-left: 2px;
+    margin-left: 6px;
   }
   .show-menu {
     transform: translateY(0%);
